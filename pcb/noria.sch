@@ -1,0 +1,1149 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L lib:holyiot18010 U1
+U 1 1 61681880
+P 2650 2650
+F 0 "U1" H 2650 4337 60  0000 C CNN
+F 1 "holyiot18010" H 2650 4231 60  0000 C CNN
+F 2 "lib:holyiot18010_mirror" H 2650 1600 60  0001 C CNN
+F 3 "" H 2650 1600 60  0001 C CNN
+	1    2650 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 61684383
+P 1550 1400
+F 0 "#PWR06" H 1550 1150 50  0001 C CNN
+F 1 "GND" H 1555 1227 50  0000 C CNN
+F 2 "" H 1550 1400 50  0001 C CNN
+F 3 "" H 1550 1400 50  0001 C CNN
+	1    1550 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 1400 1550 1350
+Wire Wire Line
+	1550 1350 1600 1350
+$Comp
+L power:+3.3V #PWR05
+U 1 1 61685469
+P 1550 1150
+F 0 "#PWR05" H 1550 1000 50  0001 C CNN
+F 1 "+3.3V" H 1565 1323 50  0000 C CNN
+F 2 "" H 1550 1150 50  0001 C CNN
+F 3 "" H 1550 1150 50  0001 C CNN
+	1    1550 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 1150 1550 1250
+Wire Wire Line
+	1550 1250 1600 1250
+$Comp
+L Device:C C1
+U 1 1 6168831F
+P 1000 1200
+F 0 "C1" H 1115 1246 50  0000 L CNN
+F 1 "C" H 1115 1155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1038 1050 50  0001 C CNN
+F 3 "~" H 1000 1200 50  0001 C CNN
+	1    1000 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR01
+U 1 1 61688AA0
+P 1000 1050
+F 0 "#PWR01" H 1000 900 50  0001 C CNN
+F 1 "+3.3V" H 1015 1223 50  0000 C CNN
+F 2 "" H 1000 1050 50  0001 C CNN
+F 3 "" H 1000 1050 50  0001 C CNN
+	1    1000 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 61688DDC
+P 1000 1350
+F 0 "#PWR02" H 1000 1100 50  0001 C CNN
+F 1 "GND" H 1005 1177 50  0000 C CNN
+F 2 "" H 1000 1350 50  0001 C CNN
+F 3 "" H 1000 1350 50  0001 C CNN
+	1    1000 1350
+	1    0    0    -1  
+$EndComp
+Text Label 1600 1650 2    50   ~ 0
+SWDCLK
+Text Label 1600 1750 2    50   ~ 0
+SWDIO
+$Comp
+L Memory_Flash:M25PX32-VMW U2
+U 1 1 6168D2BB
+P 7750 1350
+F 0 "U2" H 8394 1396 50  0000 L CNN
+F 1 "M25PX32-VMW" H 8394 1305 50  0000 L CNN
+F 2 "Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm" H 8400 1400 50  0001 C CNN
+F 3 "https://www.micron.com/~/media/documents/products/data-sheet/nor-flash/serial-nor/m25px/m25px32.pdf" H 7900 1250 50  0001 C CNN
+	1    7750 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR013
+U 1 1 6168EB27
+P 7750 850
+F 0 "#PWR013" H 7750 700 50  0001 C CNN
+F 1 "+3.3V" H 7765 1023 50  0000 C CNN
+F 2 "" H 7750 850 50  0001 C CNN
+F 3 "" H 7750 850 50  0001 C CNN
+	1    7750 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR014
+U 1 1 6168F5D9
+P 7750 1850
+F 0 "#PWR014" H 7750 1600 50  0001 C CNN
+F 1 "GND" H 7755 1677 50  0000 C CNN
+F 2 "" H 7750 1850 50  0001 C CNN
+F 3 "" H 7750 1850 50  0001 C CNN
+	1    7750 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 61695223
+P 8750 850
+F 0 "C2" H 8865 896 50  0000 L CNN
+F 1 "C" H 8865 805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8788 700 50  0001 C CNN
+F 3 "~" H 8750 850 50  0001 C CNN
+	1    8750 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR015
+U 1 1 6169530B
+P 8750 700
+F 0 "#PWR015" H 8750 550 50  0001 C CNN
+F 1 "+3.3V" H 8765 873 50  0000 C CNN
+F 2 "" H 8750 700 50  0001 C CNN
+F 3 "" H 8750 700 50  0001 C CNN
+	1    8750 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR016
+U 1 1 61695315
+P 8750 1000
+F 0 "#PWR016" H 8750 750 50  0001 C CNN
+F 1 "GND" H 8755 827 50  0000 C CNN
+F 2 "" H 8750 1000 50  0001 C CNN
+F 3 "" H 8750 1000 50  0001 C CNN
+	1    8750 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR04
+U 1 1 616A0DAC
+P 1450 6050
+F 0 "#PWR04" H 1450 5900 50  0001 C CNN
+F 1 "VBUS" H 1465 6223 50  0000 C CNN
+F 2 "" H 1450 6050 50  0001 C CNN
+F 3 "" H 1450 6050 50  0001 C CNN
+	1    1450 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack4 J1
+U 1 1 616A3EB1
+P 950 5850
+F 0 "J1" H 907 6175 50  0000 C CNN
+F 1 "AudioJack4" H 907 6084 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ-3524-SMT_Horizontal" H 950 5850 50  0001 C CNN
+F 3 "~" H 950 5850 50  0001 C CNN
+	1    950  5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 6050 1150 6050
+Text Label 1150 5850 0    50   ~ 0
+SCL
+Text Label 1150 5950 0    50   ~ 0
+SDA
+$Comp
+L power:GND #PWR07
+U 1 1 616A5C16
+P 1750 5750
+F 0 "#PWR07" H 1750 5500 50  0001 C CNN
+F 1 "GND" H 1755 5577 50  0000 C CNN
+F 2 "" H 1750 5750 50  0001 C CNN
+F 3 "" H 1750 5750 50  0001 C CNN
+	1    1750 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 5750 1150 5750
+$Comp
+L kbd:SW_PUSH SW1
+U 1 1 616A89E3
+P 5950 3350
+F 0 "SW1" H 5950 3605 50  0000 C CNN
+F 1 "SW_PUSH" H 5950 3514 50  0000 C CNN
+F 2 "kicad-footprints:CherryMX_Choc_Hotswap" H 5950 3350 50  0001 C CNN
+F 3 "" H 5950 3350 50  0000 C CNN
+	1    5950 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 616A9338
+P 6250 3500
+F 0 "D1" H 6250 3600 50  0000 R CNN
+F 1 "D" V 6205 3420 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6250 3500 50  0001 C CNN
+F 3 "~" H 6250 3500 50  0001 C CNN
+	1    6250 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW5
+U 1 1 616AE706
+P 6700 3350
+F 0 "SW5" H 6700 3605 50  0000 C CNN
+F 1 "SW_PUSH" H 6700 3514 50  0000 C CNN
+F 2 "kicad-footprints:CherryMX_Choc_Hotswap" H 6700 3350 50  0001 C CNN
+F 3 "" H 6700 3350 50  0000 C CNN
+	1    6700 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D5
+U 1 1 616AE788
+P 7000 3500
+F 0 "D5" H 7000 3600 50  0000 R CNN
+F 1 "D" V 6955 3420 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 7000 3500 50  0001 C CNN
+F 3 "~" H 7000 3500 50  0001 C CNN
+	1    7000 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW9
+U 1 1 616B0E50
+P 7450 3350
+F 0 "SW9" H 7450 3605 50  0000 C CNN
+F 1 "SW_PUSH" H 7450 3514 50  0000 C CNN
+F 2 "kicad-footprints:CherryMX_Choc_Hotswap" H 7450 3350 50  0001 C CNN
+F 3 "" H 7450 3350 50  0000 C CNN
+	1    7450 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D9
+U 1 1 616B0EF0
+P 7750 3500
+F 0 "D9" H 7750 3600 50  0000 R CNN
+F 1 "D" V 7705 3420 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 7750 3500 50  0001 C CNN
+F 3 "~" H 7750 3500 50  0001 C CNN
+	1    7750 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW13
+U 1 1 616B5445
+P 8200 3350
+F 0 "SW13" H 8200 3605 50  0000 C CNN
+F 1 "SW_PUSH" H 8200 3514 50  0000 C CNN
+F 2 "kicad-footprints:CherryMX_Choc_Hotswap" H 8200 3350 50  0001 C CNN
+F 3 "" H 8200 3350 50  0000 C CNN
+	1    8200 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D13
+U 1 1 616B555D
+P 8500 3500
+F 0 "D13" H 8500 3600 50  0000 R CNN
+F 1 "D" V 8455 3420 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8500 3500 50  0001 C CNN
+F 3 "~" H 8500 3500 50  0001 C CNN
+	1    8500 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW17
+U 1 1 616B5567
+P 8950 3350
+F 0 "SW17" H 8950 3605 50  0000 C CNN
+F 1 "SW_PUSH" H 8950 3514 50  0000 C CNN
+F 2 "kicad-footprints:CherryMX_Choc_Hotswap" H 8950 3350 50  0001 C CNN
+F 3 "" H 8950 3350 50  0000 C CNN
+	1    8950 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D17
+U 1 1 616B5571
+P 9250 3500
+F 0 "D17" H 9250 3600 50  0000 R CNN
+F 1 "D" V 9205 3420 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 9250 3500 50  0001 C CNN
+F 3 "~" H 9250 3500 50  0001 C CNN
+	1    9250 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW21
+U 1 1 616B557B
+P 9700 3350
+F 0 "SW21" H 9700 3605 50  0000 C CNN
+F 1 "SW_PUSH" H 9700 3514 50  0000 C CNN
+F 2 "kicad-footprints:CherryMX_Choc_Hotswap" H 9700 3350 50  0001 C CNN
+F 3 "" H 9700 3350 50  0000 C CNN
+	1    9700 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D21
+U 1 1 616B5585
+P 10000 3500
+F 0 "D21" H 10000 3600 50  0000 R CNN
+F 1 "D" V 9955 3420 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 10000 3500 50  0001 C CNN
+F 3 "~" H 10000 3500 50  0001 C CNN
+	1    10000 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW2
+U 1 1 616CA37E
+P 5950 4000
+F 0 "SW2" H 5950 4255 50  0000 C CNN
+F 1 "SW_PUSH" H 5950 4164 50  0000 C CNN
+F 2 "kicad-footprints:CherryMX_Choc_Hotswap" H 5950 4000 50  0001 C CNN
+F 3 "" H 5950 4000 50  0000 C CNN
+	1    5950 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 616CA57A
+P 6250 4150
+F 0 "D2" H 6250 4250 50  0000 R CNN
+F 1 "D" V 6205 4070 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6250 4150 50  0001 C CNN
+F 3 "~" H 6250 4150 50  0001 C CNN
+	1    6250 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW6
+U 1 1 616CA584
+P 6700 4000
+F 0 "SW6" H 6700 4255 50  0000 C CNN
+F 1 "SW_PUSH" H 6700 4164 50  0000 C CNN
+F 2 "kicad-footprints:CherryMX_Choc_Hotswap" H 6700 4000 50  0001 C CNN
+F 3 "" H 6700 4000 50  0000 C CNN
+	1    6700 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D6
+U 1 1 616CA58E
+P 7000 4150
+F 0 "D6" H 7000 4250 50  0000 R CNN
+F 1 "D" V 6955 4070 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 7000 4150 50  0001 C CNN
+F 3 "~" H 7000 4150 50  0001 C CNN
+	1    7000 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW10
+U 1 1 616CA598
+P 7450 4000
+F 0 "SW10" H 7450 4255 50  0000 C CNN
+F 1 "SW_PUSH" H 7450 4164 50  0000 C CNN
+F 2 "kicad-footprints:CherryMX_Choc_Hotswap" H 7450 4000 50  0001 C CNN
+F 3 "" H 7450 4000 50  0000 C CNN
+	1    7450 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D10
+U 1 1 616CA5A2
+P 7750 4150
+F 0 "D10" H 7750 4250 50  0000 R CNN
+F 1 "D" V 7705 4070 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 7750 4150 50  0001 C CNN
+F 3 "~" H 7750 4150 50  0001 C CNN
+	1    7750 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW14
+U 1 1 616CA5AC
+P 8200 4000
+F 0 "SW14" H 8200 4255 50  0000 C CNN
+F 1 "SW_PUSH" H 8200 4164 50  0000 C CNN
+F 2 "kicad-footprints:CherryMX_Choc_Hotswap" H 8200 4000 50  0001 C CNN
+F 3 "" H 8200 4000 50  0000 C CNN
+	1    8200 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D14
+U 1 1 616CA5B6
+P 8500 4150
+F 0 "D14" H 8500 4250 50  0000 R CNN
+F 1 "D" V 8455 4070 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8500 4150 50  0001 C CNN
+F 3 "~" H 8500 4150 50  0001 C CNN
+	1    8500 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW18
+U 1 1 616CA5C0
+P 8950 4000
+F 0 "SW18" H 8950 4255 50  0000 C CNN
+F 1 "SW_PUSH" H 8950 4164 50  0000 C CNN
+F 2 "kicad-footprints:CherryMX_Choc_Hotswap" H 8950 4000 50  0001 C CNN
+F 3 "" H 8950 4000 50  0000 C CNN
+	1    8950 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D18
+U 1 1 616CA5CA
+P 9250 4150
+F 0 "D18" H 9250 4250 50  0000 R CNN
+F 1 "D" V 9205 4070 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 9250 4150 50  0001 C CNN
+F 3 "~" H 9250 4150 50  0001 C CNN
+	1    9250 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW22
+U 1 1 616CA5D4
+P 9700 4000
+F 0 "SW22" H 9700 4255 50  0000 C CNN
+F 1 "SW_PUSH" H 9700 4164 50  0000 C CNN
+F 2 "kicad-footprints:CherryMX_Choc_Hotswap" H 9700 4000 50  0001 C CNN
+F 3 "" H 9700 4000 50  0000 C CNN
+	1    9700 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D22
+U 1 1 616CA5DE
+P 10000 4150
+F 0 "D22" H 10000 4250 50  0000 R CNN
+F 1 "D" V 9955 4070 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 10000 4150 50  0001 C CNN
+F 3 "~" H 10000 4150 50  0001 C CNN
+	1    10000 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW3
+U 1 1 616D9607
+P 5950 4650
+F 0 "SW3" H 5950 4905 50  0000 C CNN
+F 1 "SW_PUSH" H 5950 4814 50  0000 C CNN
+F 2 "kicad-footprints:CherryMX_Choc_Hotswap" H 5950 4650 50  0001 C CNN
+F 3 "" H 5950 4650 50  0000 C CNN
+	1    5950 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 616D9875
+P 6250 4800
+F 0 "D3" H 6250 4900 50  0000 R CNN
+F 1 "D" V 6205 4720 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6250 4800 50  0001 C CNN
+F 3 "~" H 6250 4800 50  0001 C CNN
+	1    6250 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW7
+U 1 1 616D987F
+P 6700 4650
+F 0 "SW7" H 6700 4905 50  0000 C CNN
+F 1 "SW_PUSH" H 6700 4814 50  0000 C CNN
+F 2 "kicad-footprints:CherryMX_Choc_Hotswap" H 6700 4650 50  0001 C CNN
+F 3 "" H 6700 4650 50  0000 C CNN
+	1    6700 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D7
+U 1 1 616D9889
+P 7000 4800
+F 0 "D7" H 7000 4900 50  0000 R CNN
+F 1 "D" V 6955 4720 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 7000 4800 50  0001 C CNN
+F 3 "~" H 7000 4800 50  0001 C CNN
+	1    7000 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW11
+U 1 1 616D9893
+P 7450 4650
+F 0 "SW11" H 7450 4905 50  0000 C CNN
+F 1 "SW_PUSH" H 7450 4814 50  0000 C CNN
+F 2 "kicad-footprints:CherryMX_Choc_Hotswap" H 7450 4650 50  0001 C CNN
+F 3 "" H 7450 4650 50  0000 C CNN
+	1    7450 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D11
+U 1 1 616D989D
+P 7750 4800
+F 0 "D11" H 7750 4900 50  0000 R CNN
+F 1 "D" V 7705 4720 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 7750 4800 50  0001 C CNN
+F 3 "~" H 7750 4800 50  0001 C CNN
+	1    7750 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW15
+U 1 1 616D98A7
+P 8200 4650
+F 0 "SW15" H 8200 4905 50  0000 C CNN
+F 1 "SW_PUSH" H 8200 4814 50  0000 C CNN
+F 2 "kicad-footprints:CherryMX_Choc_Hotswap" H 8200 4650 50  0001 C CNN
+F 3 "" H 8200 4650 50  0000 C CNN
+	1    8200 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D15
+U 1 1 616D98B1
+P 8500 4800
+F 0 "D15" H 8500 4900 50  0000 R CNN
+F 1 "D" V 8455 4720 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8500 4800 50  0001 C CNN
+F 3 "~" H 8500 4800 50  0001 C CNN
+	1    8500 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW19
+U 1 1 616D98BB
+P 8950 4650
+F 0 "SW19" H 8950 4905 50  0000 C CNN
+F 1 "SW_PUSH" H 8950 4814 50  0000 C CNN
+F 2 "kicad-footprints:CherryMX_Choc_Hotswap" H 8950 4650 50  0001 C CNN
+F 3 "" H 8950 4650 50  0000 C CNN
+	1    8950 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D19
+U 1 1 616D98C5
+P 9250 4800
+F 0 "D19" H 9250 4900 50  0000 R CNN
+F 1 "D" V 9205 4720 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 9250 4800 50  0001 C CNN
+F 3 "~" H 9250 4800 50  0001 C CNN
+	1    9250 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW23
+U 1 1 616D98CF
+P 9700 4650
+F 0 "SW23" H 9700 4905 50  0000 C CNN
+F 1 "SW_PUSH" H 9700 4814 50  0000 C CNN
+F 2 "kicad-footprints:CherryMX_Choc_Hotswap" H 9700 4650 50  0001 C CNN
+F 3 "" H 9700 4650 50  0000 C CNN
+	1    9700 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D23
+U 1 1 616D98D9
+P 10000 4800
+F 0 "D23" H 10000 4900 50  0000 R CNN
+F 1 "D" V 9955 4720 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 10000 4800 50  0001 C CNN
+F 3 "~" H 10000 4800 50  0001 C CNN
+	1    10000 4800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 3250 5650 3350
+Connection ~ 5650 3350
+Wire Wire Line
+	5650 3350 5650 4000
+Connection ~ 5650 4000
+Wire Wire Line
+	5650 4000 5650 4650
+Wire Wire Line
+	6400 3250 6400 3350
+Connection ~ 6400 3350
+Wire Wire Line
+	6400 3350 6400 4000
+Connection ~ 6400 4000
+Wire Wire Line
+	6400 4000 6400 4650
+Wire Wire Line
+	7150 3250 7150 3350
+Connection ~ 7150 3350
+Wire Wire Line
+	7150 3350 7150 4000
+Connection ~ 7150 4000
+Wire Wire Line
+	7150 4000 7150 4650
+Wire Wire Line
+	7900 3250 7900 3350
+Connection ~ 7900 3350
+Wire Wire Line
+	7900 3350 7900 4000
+Connection ~ 7900 4000
+Wire Wire Line
+	7900 4000 7900 4650
+Wire Wire Line
+	8650 3250 8650 3350
+Connection ~ 8650 3350
+Wire Wire Line
+	8650 3350 8650 4000
+Connection ~ 8650 4000
+Wire Wire Line
+	8650 4000 8650 4650
+Wire Wire Line
+	9400 3250 9400 3350
+Connection ~ 9400 3350
+Wire Wire Line
+	9400 3350 9400 4000
+Connection ~ 9400 4000
+Wire Wire Line
+	9400 4000 9400 4650
+Wire Wire Line
+	6100 3700 6250 3700
+Wire Wire Line
+	10000 3700 10000 3650
+Wire Wire Line
+	9250 3650 9250 3700
+Connection ~ 9250 3700
+Wire Wire Line
+	9250 3700 10000 3700
+Wire Wire Line
+	8500 3650 8500 3700
+Connection ~ 8500 3700
+Wire Wire Line
+	8500 3700 9250 3700
+Wire Wire Line
+	7750 3650 7750 3700
+Connection ~ 7750 3700
+Wire Wire Line
+	7750 3700 8500 3700
+Wire Wire Line
+	7000 3650 7000 3700
+Connection ~ 7000 3700
+Wire Wire Line
+	7000 3700 7750 3700
+Wire Wire Line
+	6250 3650 6250 3700
+Connection ~ 6250 3700
+Wire Wire Line
+	6250 3700 7000 3700
+Wire Wire Line
+	10000 4350 10000 4300
+Wire Wire Line
+	9250 4300 9250 4350
+Connection ~ 9250 4350
+Wire Wire Line
+	9250 4350 10000 4350
+Wire Wire Line
+	8500 4300 8500 4350
+Connection ~ 8500 4350
+Wire Wire Line
+	8500 4350 9250 4350
+Wire Wire Line
+	7750 4300 7750 4350
+Connection ~ 7750 4350
+Wire Wire Line
+	7750 4350 8500 4350
+Wire Wire Line
+	7000 4300 7000 4350
+Connection ~ 7000 4350
+Wire Wire Line
+	7000 4350 7750 4350
+Wire Wire Line
+	6250 4300 6250 4350
+Wire Wire Line
+	6250 4350 7000 4350
+$Comp
+L kbd:SW_PUSH SW4
+U 1 1 61721ADC
+P 5950 5300
+F 0 "SW4" H 5950 5555 50  0000 C CNN
+F 1 "SW_PUSH" H 5950 5464 50  0000 C CNN
+F 2 "kicad-footprints:CherryMX_Choc_Hotswap" H 5950 5300 50  0001 C CNN
+F 3 "" H 5950 5300 50  0000 C CNN
+	1    5950 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 61721E2E
+P 6250 5450
+F 0 "D4" H 6250 5550 50  0000 R CNN
+F 1 "D" V 6205 5370 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6250 5450 50  0001 C CNN
+F 3 "~" H 6250 5450 50  0001 C CNN
+	1    6250 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW8
+U 1 1 61721E38
+P 6700 5300
+F 0 "SW8" H 6700 5555 50  0000 C CNN
+F 1 "SW_PUSH" H 6700 5464 50  0000 C CNN
+F 2 "kicad-footprints:CherryMX_Choc_Hotswap" H 6700 5300 50  0001 C CNN
+F 3 "" H 6700 5300 50  0000 C CNN
+	1    6700 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D8
+U 1 1 61721E42
+P 7000 5450
+F 0 "D8" H 7000 5550 50  0000 R CNN
+F 1 "D" V 6955 5370 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 7000 5450 50  0001 C CNN
+F 3 "~" H 7000 5450 50  0001 C CNN
+	1    7000 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW12
+U 1 1 61721E4C
+P 7450 5300
+F 0 "SW12" H 7450 5555 50  0000 C CNN
+F 1 "SW_PUSH" H 7450 5464 50  0000 C CNN
+F 2 "kicad-footprints:CherryMX_Choc_Hotswap" H 7450 5300 50  0001 C CNN
+F 3 "" H 7450 5300 50  0000 C CNN
+	1    7450 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D12
+U 1 1 61721E56
+P 7750 5450
+F 0 "D12" H 7750 5550 50  0000 R CNN
+F 1 "D" V 7705 5370 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 7750 5450 50  0001 C CNN
+F 3 "~" H 7750 5450 50  0001 C CNN
+	1    7750 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW16
+U 1 1 61721E60
+P 8200 5300
+F 0 "SW16" H 8200 5555 50  0000 C CNN
+F 1 "SW_PUSH" H 8200 5464 50  0000 C CNN
+F 2 "kicad-footprints:CherryMX_Choc_Hotswap" H 8200 5300 50  0001 C CNN
+F 3 "" H 8200 5300 50  0000 C CNN
+	1    8200 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D16
+U 1 1 61721E6A
+P 8500 5450
+F 0 "D16" H 8500 5550 50  0000 R CNN
+F 1 "D" V 8455 5370 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8500 5450 50  0001 C CNN
+F 3 "~" H 8500 5450 50  0001 C CNN
+	1    8500 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW20
+U 1 1 61721E74
+P 8950 5300
+F 0 "SW20" H 8950 5555 50  0000 C CNN
+F 1 "SW_PUSH" H 8950 5464 50  0000 C CNN
+F 2 "kicad-footprints:CherryMX_Choc_Hotswap" H 8950 5300 50  0001 C CNN
+F 3 "" H 8950 5300 50  0000 C CNN
+	1    8950 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D20
+U 1 1 61721E7E
+P 9250 5450
+F 0 "D20" H 9250 5550 50  0000 R CNN
+F 1 "D" V 9205 5370 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 9250 5450 50  0001 C CNN
+F 3 "~" H 9250 5450 50  0001 C CNN
+	1    9250 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW24
+U 1 1 61721E88
+P 9700 5300
+F 0 "SW24" H 9700 5555 50  0000 C CNN
+F 1 "SW_PUSH" H 9700 5464 50  0000 C CNN
+F 2 "kicad-footprints:CherryMX_Choc_Hotswap" H 9700 5300 50  0001 C CNN
+F 3 "" H 9700 5300 50  0000 C CNN
+	1    9700 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D24
+U 1 1 61721E92
+P 10000 5450
+F 0 "D24" H 10000 5550 50  0000 R CNN
+F 1 "D" V 9955 5370 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 10000 5450 50  0001 C CNN
+F 3 "~" H 10000 5450 50  0001 C CNN
+	1    10000 5450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 4650 5650 5300
+Wire Wire Line
+	6400 4650 6400 5300
+Wire Wire Line
+	7150 4650 7150 5300
+Wire Wire Line
+	7900 4650 7900 5300
+Wire Wire Line
+	8650 4650 8650 5300
+Wire Wire Line
+	9400 4650 9400 5300
+Connection ~ 5650 4650
+Connection ~ 6400 4650
+Connection ~ 7150 4650
+Connection ~ 7900 4650
+Connection ~ 8650 4650
+Connection ~ 9400 4650
+$Comp
+L kbd:SW_PUSH SW25
+U 1 1 6174AF26
+P 5200 4650
+F 0 "SW25" H 5200 4905 50  0000 C CNN
+F 1 "SW_PUSH" H 5200 4814 50  0000 C CNN
+F 2 "kicad-footprints:CherryMX_Choc_Hotswap" H 5200 4650 50  0001 C CNN
+F 3 "" H 5200 4650 50  0000 C CNN
+	1    5200 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D25
+U 1 1 6174B764
+P 5500 4800
+F 0 "D25" H 5500 4900 50  0000 R CNN
+F 1 "D" V 5455 4720 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5500 4800 50  0001 C CNN
+F 3 "~" H 5500 4800 50  0001 C CNN
+	1    5500 4800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5500 5000 5500 4950
+Wire Wire Line
+	10000 5600 10000 5650
+Wire Wire Line
+	9250 5600 9250 5650
+Connection ~ 9250 5650
+Wire Wire Line
+	9250 5650 10000 5650
+Wire Wire Line
+	8500 5600 8500 5650
+Connection ~ 8500 5650
+Wire Wire Line
+	8500 5650 9250 5650
+Wire Wire Line
+	7750 5600 7750 5650
+Connection ~ 7750 5650
+Wire Wire Line
+	7750 5650 8500 5650
+Wire Wire Line
+	7000 5600 7000 5650
+Connection ~ 7000 5650
+Wire Wire Line
+	7000 5650 7750 5650
+Wire Wire Line
+	6250 5600 6250 5650
+Wire Wire Line
+	6250 5650 7000 5650
+Text Label 6100 3700 2    50   ~ 0
+ROW0
+Text Label 6100 4350 2    50   ~ 0
+ROW1
+Wire Wire Line
+	10000 5000 10000 4950
+Wire Wire Line
+	9250 4950 9250 5000
+Connection ~ 9250 5000
+Wire Wire Line
+	9250 5000 10000 5000
+Wire Wire Line
+	8500 4950 8500 5000
+Connection ~ 8500 5000
+Wire Wire Line
+	8500 5000 9250 5000
+Wire Wire Line
+	7750 4950 7750 5000
+Connection ~ 7750 5000
+Wire Wire Line
+	7750 5000 8500 5000
+Wire Wire Line
+	7000 4950 7000 5000
+Connection ~ 7000 5000
+Wire Wire Line
+	7000 5000 7750 5000
+Wire Wire Line
+	6250 4950 6250 5000
+Wire Wire Line
+	6250 5000 7000 5000
+Text Label 6100 5000 2    50   ~ 0
+ROW2
+Text Label 6100 5650 2    50   ~ 0
+ROW3
+Wire Wire Line
+	6100 5650 6250 5650
+Connection ~ 6250 5650
+Wire Wire Line
+	6100 5000 6250 5000
+Connection ~ 6250 5000
+Wire Wire Line
+	6100 4350 6250 4350
+Connection ~ 6250 4350
+Text Label 5650 3250 1    50   ~ 0
+COL0
+Text Label 6400 3250 1    50   ~ 0
+COL1
+Text Label 7150 3250 1    50   ~ 0
+COL2
+Text Label 7900 3250 1    50   ~ 0
+COL3
+Text Label 8650 3250 1    50   ~ 0
+COL4
+Text Label 9400 3250 1    50   ~ 0
+COL5
+Text Label 4900 3250 1    50   ~ 0
+COL6
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J2
+U 1 1 6179C156
+P 3050 6400
+F 0 "J2" H 3157 7267 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 3157 7176 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 3200 6400 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 3200 6400 50  0001 C CNN
+	1    3050 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 617A662D
+P 4250 6100
+F 0 "R4" V 4043 6100 50  0000 C CNN
+F 1 "R" V 4134 6100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4180 6100 50  0001 C CNN
+F 3 "~" H 4250 6100 50  0001 C CNN
+	1    4250 6100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 617A6B47
+P 4000 6000
+F 0 "R1" V 3793 6000 50  0000 C CNN
+F 1 "R" V 3884 6000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3930 6000 50  0001 C CNN
+F 3 "~" H 4000 6000 50  0001 C CNN
+	1    4000 6000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 6000 3850 6000
+Wire Wire Line
+	3650 6100 4100 6100
+$Comp
+L power:GND #PWR011
+U 1 1 617AD4F2
+P 4600 6150
+F 0 "#PWR011" H 4600 5900 50  0001 C CNN
+F 1 "GND" H 4605 5977 50  0000 C CNN
+F 2 "" H 4600 6150 50  0001 C CNN
+F 3 "" H 4600 6150 50  0001 C CNN
+	1    4600 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 6100 4600 6100
+Wire Wire Line
+	4600 6100 4600 6150
+Wire Wire Line
+	4150 6000 4600 6000
+Wire Wire Line
+	4600 6000 4600 6100
+Connection ~ 4600 6100
+$Comp
+L power:VBUS #PWR010
+U 1 1 617B4F3D
+P 3800 5750
+F 0 "#PWR010" H 3800 5600 50  0001 C CNN
+F 1 "VBUS" H 3815 5923 50  0000 C CNN
+F 2 "" H 3800 5750 50  0001 C CNN
+F 3 "" H 3800 5750 50  0001 C CNN
+	1    3800 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 5750 3800 5800
+Wire Wire Line
+	3800 5800 3650 5800
+$Comp
+L power:GND #PWR09
+U 1 1 617B7FBA
+P 3050 7300
+F 0 "#PWR09" H 3050 7050 50  0001 C CNN
+F 1 "GND" H 3055 7127 50  0000 C CNN
+F 2 "" H 3050 7300 50  0001 C CNN
+F 3 "" H 3050 7300 50  0001 C CNN
+	1    3050 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 617B8257
+P 2750 7300
+F 0 "#PWR08" H 2750 7050 50  0001 C CNN
+F 1 "GND" H 2755 7127 50  0000 C CNN
+F 2 "" H 2750 7300 50  0001 C CNN
+F 3 "" H 2750 7300 50  0001 C CNN
+	1    2750 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 617B94E6
+P 4050 6350
+F 0 "R2" V 3843 6350 50  0000 C CNN
+F 1 "R" V 3934 6350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3980 6350 50  0001 C CNN
+F 3 "~" H 4050 6350 50  0001 C CNN
+	1    4050 6350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 6300 3900 6300
+Wire Wire Line
+	3900 6300 3900 6350
+Wire Wire Line
+	3650 6400 3900 6400
+Wire Wire Line
+	3900 6400 3900 6350
+Connection ~ 3900 6350
+Wire Wire Line
+	3900 6500 3650 6500
+Wire Wire Line
+	3650 6600 3900 6600
+Wire Wire Line
+	3900 6500 3900 6550
+Connection ~ 3900 6550
+Wire Wire Line
+	3900 6550 3900 6600
+$Comp
+L Device:R R3
+U 1 1 617BE7FE
+P 4050 6550
+F 0 "R3" V 3850 6550 50  0000 C CNN
+F 1 "22" V 3950 6550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3980 6550 50  0001 C CNN
+F 3 "~" H 4050 6550 50  0001 C CNN
+	1    4050 6550
+	0    -1   -1   0   
+$EndComp
+Text Label 4200 6350 0    50   ~ 0
+USB-
+Text Label 4200 6550 0    50   ~ 0
+USB+
+Text Label 1600 2250 2    50   ~ 0
+USB-
+Text Label 1600 2150 2    50   ~ 0
+USB+
+$Comp
+L power:VBUS #PWR03
+U 1 1 617D6DC8
+P 1300 2300
+F 0 "#PWR03" H 1300 2150 50  0001 C CNN
+F 1 "VBUS" H 1315 2473 50  0000 C CNN
+F 2 "" H 1300 2300 50  0001 C CNN
+F 3 "" H 1300 2300 50  0001 C CNN
+	1    1300 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 2300 1300 2350
+Wire Wire Line
+	1300 2350 1600 2350
+$Comp
+L kbd:SW_PUSH RSW1
+U 1 1 617EDCEF
+P 5300 1000
+F 0 "RSW1" H 5300 1255 50  0000 C CNN
+F 1 "SW_PUSH" H 5300 1164 50  0000 C CNN
+F 2 "kicad-footprints:CherryMX_Choc_Hotswap" H 5300 1000 50  0001 C CNN
+F 3 "" H 5300 1000 50  0000 C CNN
+	1    5300 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 617F1C86
+P 5700 1150
+F 0 "#PWR012" H 5700 900 50  0001 C CNN
+F 1 "GND" H 5705 977 50  0000 C CNN
+F 2 "" H 5700 1150 50  0001 C CNN
+F 3 "" H 5700 1150 50  0001 C CNN
+	1    5700 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 1150 5700 1000
+Wire Wire Line
+	5700 1000 5600 1000
+Text Label 5000 1000 2    50   ~ 0
+nRESET
+Wire Wire Line
+	4900 3250 4900 4650
+Wire Wire Line
+	5500 5000 6100 5000
+Connection ~ 6100 5000
+Wire Wire Line
+	6100 5000 6250 5000
+$EndSCHEMATC

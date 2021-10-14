@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name lib)(type Legacy)(uri ${KIPRJMOD}/lib/lib.lib)(options "")(descr ""))
+  (lib (name kbd)(type Legacy)(uri ${KIPRJMOD}/kbd/kicad-symbols/kbd.lib)(options "")(descr ""))
+)
