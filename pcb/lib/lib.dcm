@@ -1,3 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BAS40-05
+D 40V 0.2A Dual Small Signal Schottky Diodes
+K Schottky, Diode
+F http://www.vishay.com/docs/85701/bas40v.pdf
+$ENDCMP
+#
 #End Doc Library
