@@ -25,17 +25,6 @@ F 3 "" H 2100 1300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D1
-U 1 1 61B5DB8A
-P 2400 1450
-F 0 "D1" H 2400 1550 50  0000 R CNN
-F 1 "D" V 2355 1370 50  0000 R CNN
-F 2 "lib:D3_SMD_v2_mirror" H 2400 1450 50  0001 C CNN
-F 3 "~" H 2400 1450 50  0001 C CNN
-	1    2400 1450
-	0    -1   -1   0   
-$EndComp
-$Comp
 L kbd:SW_PUSH SW2
 U 1 1 61B5DB90
 P 2850 1300
@@ -45,17 +34,6 @@ F 2 "lib:MX_ALPS_PG1350_noLed" H 2850 1300 50  0001 C CNN
 F 3 "" H 2850 1300 50  0000 C CNN
 	1    2850 1300
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D2
-U 1 1 61B5DB96
-P 3150 1450
-F 0 "D2" H 3150 1550 50  0000 R CNN
-F 1 "D" V 3105 1370 50  0000 R CNN
-F 2 "lib:D3_SMD_v2_mirror" H 3150 1450 50  0001 C CNN
-F 3 "~" H 3150 1450 50  0001 C CNN
-	1    3150 1450
-	0    -1   -1   0   
 $EndComp
 $Comp
 L kbd:SW_PUSH SW3
@@ -69,17 +47,6 @@ F 3 "" H 3600 1300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D3
-U 1 1 61B5DBA2
-P 3900 1450
-F 0 "D3" H 3900 1550 50  0000 R CNN
-F 1 "D" V 3855 1370 50  0000 R CNN
-F 2 "lib:D3_SMD_v2_mirror" H 3900 1450 50  0001 C CNN
-F 3 "~" H 3900 1450 50  0001 C CNN
-	1    3900 1450
-	0    -1   -1   0   
-$EndComp
-$Comp
 L kbd:SW_PUSH SW4
 U 1 1 61B5DBA8
 P 4350 1300
@@ -89,17 +56,6 @@ F 2 "lib:MX_ALPS_PG1350_noLed" H 4350 1300 50  0001 C CNN
 F 3 "" H 4350 1300 50  0000 C CNN
 	1    4350 1300
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D4
-U 1 1 61B5DBAE
-P 4650 1450
-F 0 "D4" H 4650 1550 50  0000 R CNN
-F 1 "D" V 4605 1370 50  0000 R CNN
-F 2 "lib:D3_SMD_v2_mirror" H 4650 1450 50  0001 C CNN
-F 3 "~" H 4650 1450 50  0001 C CNN
-	1    4650 1450
-	0    -1   -1   0   
 $EndComp
 $Comp
 L kbd:SW_PUSH SW5
@@ -113,17 +69,6 @@ F 3 "" H 5100 1300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D5
-U 1 1 61B5DBBA
-P 5400 1450
-F 0 "D5" H 5400 1550 50  0000 R CNN
-F 1 "D" V 5355 1370 50  0000 R CNN
-F 2 "lib:D3_SMD_v2_mirror" H 5400 1450 50  0001 C CNN
-F 3 "~" H 5400 1450 50  0001 C CNN
-	1    5400 1450
-	0    -1   -1   0   
-$EndComp
-$Comp
 L kbd:SW_PUSH SW6
 U 1 1 61B5DBC0
 P 5850 1300
@@ -133,17 +78,6 @@ F 2 "lib:MX_ALPS_PG1350_noLed" H 5850 1300 50  0001 C CNN
 F 3 "" H 5850 1300 50  0000 C CNN
 	1    5850 1300
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D6
-U 1 1 61B5DBC6
-P 6150 1450
-F 0 "D6" H 6150 1550 50  0000 R CNN
-F 1 "D" V 6105 1370 50  0000 R CNN
-F 2 "lib:D3_SMD_v2_mirror" H 6150 1450 50  0001 C CNN
-F 3 "~" H 6150 1450 50  0001 C CNN
-	1    6150 1450
-	0    -1   -1   0   
 $EndComp
 $Comp
 L kbd:SW_PUSH SW7
@@ -157,17 +91,6 @@ F 3 "" H 2100 1950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D7
-U 1 1 61B5DBD2
-P 2400 2100
-F 0 "D7" H 2400 2200 50  0000 R CNN
-F 1 "D" V 2355 2020 50  0000 R CNN
-F 2 "lib:D3_SMD_v2_mirror" H 2400 2100 50  0001 C CNN
-F 3 "~" H 2400 2100 50  0001 C CNN
-	1    2400 2100
-	0    -1   -1   0   
-$EndComp
-$Comp
 L kbd:SW_PUSH SW8
 U 1 1 61B5DBD8
 P 2850 1950
@@ -177,17 +100,6 @@ F 2 "lib:MX_ALPS_PG1350_noLed" H 2850 1950 50  0001 C CNN
 F 3 "" H 2850 1950 50  0000 C CNN
 	1    2850 1950
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D8
-U 1 1 61B5DBDE
-P 3150 2100
-F 0 "D8" H 3150 2200 50  0000 R CNN
-F 1 "D" V 3105 2020 50  0000 R CNN
-F 2 "lib:D3_SMD_v2_mirror" H 3150 2100 50  0001 C CNN
-F 3 "~" H 3150 2100 50  0001 C CNN
-	1    3150 2100
-	0    -1   -1   0   
 $EndComp
 $Comp
 L kbd:SW_PUSH SW9
@@ -201,17 +113,6 @@ F 3 "" H 3600 1950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D9
-U 1 1 61B5DBEA
-P 3900 2100
-F 0 "D9" H 3900 2200 50  0000 R CNN
-F 1 "D" V 3855 2020 50  0000 R CNN
-F 2 "lib:D3_SMD_v2_mirror" H 3900 2100 50  0001 C CNN
-F 3 "~" H 3900 2100 50  0001 C CNN
-	1    3900 2100
-	0    -1   -1   0   
-$EndComp
-$Comp
 L kbd:SW_PUSH SW10
 U 1 1 61B5DBF0
 P 4350 1950
@@ -221,17 +122,6 @@ F 2 "lib:MX_ALPS_PG1350_noLed" H 4350 1950 50  0001 C CNN
 F 3 "" H 4350 1950 50  0000 C CNN
 	1    4350 1950
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D10
-U 1 1 61B5DBF6
-P 4650 2100
-F 0 "D10" H 4650 2200 50  0000 R CNN
-F 1 "D" V 4605 2020 50  0000 R CNN
-F 2 "lib:D3_SMD_v2_mirror" H 4650 2100 50  0001 C CNN
-F 3 "~" H 4650 2100 50  0001 C CNN
-	1    4650 2100
-	0    -1   -1   0   
 $EndComp
 $Comp
 L kbd:SW_PUSH SW11
@@ -245,17 +135,6 @@ F 3 "" H 5100 1950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D11
-U 1 1 61B5DC02
-P 5400 2100
-F 0 "D11" H 5400 2200 50  0000 R CNN
-F 1 "D" V 5355 2020 50  0000 R CNN
-F 2 "lib:D3_SMD_v2_mirror" H 5400 2100 50  0001 C CNN
-F 3 "~" H 5400 2100 50  0001 C CNN
-	1    5400 2100
-	0    -1   -1   0   
-$EndComp
-$Comp
 L kbd:SW_PUSH SW12
 U 1 1 61B5DC08
 P 5850 1950
@@ -265,17 +144,6 @@ F 2 "lib:MX_ALPS_PG1350_noLed" H 5850 1950 50  0001 C CNN
 F 3 "" H 5850 1950 50  0000 C CNN
 	1    5850 1950
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D12
-U 1 1 61B5DC0E
-P 6150 2100
-F 0 "D12" H 6150 2200 50  0000 R CNN
-F 1 "D" V 6105 2020 50  0000 R CNN
-F 2 "lib:D3_SMD_v2_mirror" H 6150 2100 50  0001 C CNN
-F 3 "~" H 6150 2100 50  0001 C CNN
-	1    6150 2100
-	0    -1   -1   0   
 $EndComp
 $Comp
 L kbd:SW_PUSH SW13
@@ -289,17 +157,6 @@ F 3 "" H 2100 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D13
-U 1 1 61B5DC1A
-P 2400 2750
-F 0 "D13" H 2400 2850 50  0000 R CNN
-F 1 "D" V 2355 2670 50  0000 R CNN
-F 2 "lib:D3_SMD_v2_mirror" H 2400 2750 50  0001 C CNN
-F 3 "~" H 2400 2750 50  0001 C CNN
-	1    2400 2750
-	0    -1   -1   0   
-$EndComp
-$Comp
 L kbd:SW_PUSH SW14
 U 1 1 61B5DC20
 P 2850 2600
@@ -309,17 +166,6 @@ F 2 "lib:MX_ALPS_PG1350_noLed" H 2850 2600 50  0001 C CNN
 F 3 "" H 2850 2600 50  0000 C CNN
 	1    2850 2600
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D14
-U 1 1 61B5DC26
-P 3150 2750
-F 0 "D14" H 3150 2850 50  0000 R CNN
-F 1 "D" V 3105 2670 50  0000 R CNN
-F 2 "lib:D3_SMD_v2_mirror" H 3150 2750 50  0001 C CNN
-F 3 "~" H 3150 2750 50  0001 C CNN
-	1    3150 2750
-	0    -1   -1   0   
 $EndComp
 $Comp
 L kbd:SW_PUSH SW15
@@ -333,17 +179,6 @@ F 3 "" H 3600 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D15
-U 1 1 61B5DC32
-P 3900 2750
-F 0 "D15" H 3900 2850 50  0000 R CNN
-F 1 "D" V 3855 2670 50  0000 R CNN
-F 2 "lib:D3_SMD_v2_mirror" H 3900 2750 50  0001 C CNN
-F 3 "~" H 3900 2750 50  0001 C CNN
-	1    3900 2750
-	0    -1   -1   0   
-$EndComp
-$Comp
 L kbd:SW_PUSH SW16
 U 1 1 61B5DC38
 P 4350 2600
@@ -353,17 +188,6 @@ F 2 "lib:MX_ALPS_PG1350_noLed" H 4350 2600 50  0001 C CNN
 F 3 "" H 4350 2600 50  0000 C CNN
 	1    4350 2600
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D16
-U 1 1 61B5DC3E
-P 4650 2750
-F 0 "D16" H 4650 2850 50  0000 R CNN
-F 1 "D" V 4605 2670 50  0000 R CNN
-F 2 "lib:D3_SMD_v2_mirror" H 4650 2750 50  0001 C CNN
-F 3 "~" H 4650 2750 50  0001 C CNN
-	1    4650 2750
-	0    -1   -1   0   
 $EndComp
 $Comp
 L kbd:SW_PUSH SW17
@@ -377,17 +201,6 @@ F 3 "" H 5100 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D17
-U 1 1 61B5DC4A
-P 5400 2750
-F 0 "D17" H 5400 2850 50  0000 R CNN
-F 1 "D" V 5355 2670 50  0000 R CNN
-F 2 "lib:D3_SMD_v2_mirror" H 5400 2750 50  0001 C CNN
-F 3 "~" H 5400 2750 50  0001 C CNN
-	1    5400 2750
-	0    -1   -1   0   
-$EndComp
-$Comp
 L kbd:SW_PUSH SW18
 U 1 1 61B5DC50
 P 5850 2600
@@ -397,17 +210,6 @@ F 2 "lib:MX_ALPS_PG1350_noLed" H 5850 2600 50  0001 C CNN
 F 3 "" H 5850 2600 50  0000 C CNN
 	1    5850 2600
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D18
-U 1 1 61B5DC56
-P 6150 2750
-F 0 "D18" H 6150 2850 50  0000 R CNN
-F 1 "D" V 6105 2670 50  0000 R CNN
-F 2 "lib:D3_SMD_v2_mirror" H 6150 2750 50  0001 C CNN
-F 3 "~" H 6150 2750 50  0001 C CNN
-	1    6150 2750
-	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	1800 1200 1800 1300
@@ -460,58 +262,11 @@ Wire Wire Line
 Wire Wire Line
 	2250 1650 2400 1650
 Wire Wire Line
-	6150 1650 6150 1600
-Wire Wire Line
-	5400 1600 5400 1650
-Connection ~ 5400 1650
-Wire Wire Line
-	5400 1650 6150 1650
-Wire Wire Line
-	4650 1600 4650 1650
-Connection ~ 4650 1650
-Wire Wire Line
-	4650 1650 5400 1650
-Wire Wire Line
-	3900 1600 3900 1650
-Connection ~ 3900 1650
-Wire Wire Line
-	3900 1650 4650 1650
-Wire Wire Line
 	3150 1600 3150 1650
 Connection ~ 3150 1650
 Wire Wire Line
-	3150 1650 3900 1650
-Wire Wire Line
 	2400 1600 2400 1650
 Connection ~ 2400 1650
-Wire Wire Line
-	2400 1650 3150 1650
-Wire Wire Line
-	6150 2300 6150 2250
-Wire Wire Line
-	5400 2250 5400 2300
-Connection ~ 5400 2300
-Wire Wire Line
-	5400 2300 6150 2300
-Wire Wire Line
-	4650 2250 4650 2300
-Connection ~ 4650 2300
-Wire Wire Line
-	4650 2300 5400 2300
-Wire Wire Line
-	3900 2250 3900 2300
-Connection ~ 3900 2300
-Wire Wire Line
-	3900 2300 4650 2300
-Wire Wire Line
-	3150 2250 3150 2300
-Connection ~ 3150 2300
-Wire Wire Line
-	3150 2300 3900 2300
-Wire Wire Line
-	2400 2250 2400 2300
-Wire Wire Line
-	2400 2300 3150 2300
 $Comp
 L kbd:SW_PUSH SW19
 U 1 1 61B5DC9A
@@ -522,17 +277,6 @@ F 2 "lib:MX_ALPS_PG1350_noLed" H 2850 3250 50  0001 C CNN
 F 3 "" H 2850 3250 50  0000 C CNN
 	1    2850 3250
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D19
-U 1 1 61B5DCA0
-P 3150 3400
-F 0 "D19" H 3150 3500 50  0000 R CNN
-F 1 "D" V 3105 3320 50  0000 R CNN
-F 2 "lib:D3_SMD_v2_mirror" H 3150 3400 50  0001 C CNN
-F 3 "~" H 3150 3400 50  0001 C CNN
-	1    3150 3400
-	0    -1   -1   0   
 $EndComp
 $Comp
 L kbd:SW_PUSH SW20
@@ -546,17 +290,6 @@ F 3 "" H 2100 3250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D20
-U 1 1 61B5DCAC
-P 2400 3400
-F 0 "D20" H 2400 3500 50  0000 R CNN
-F 1 "D" V 2355 3320 50  0000 R CNN
-F 2 "lib:D3_SMD_v2_mirror" H 2400 3400 50  0001 C CNN
-F 3 "~" H 2400 3400 50  0001 C CNN
-	1    2400 3400
-	0    -1   -1   0   
-$EndComp
-$Comp
 L kbd:SW_PUSH SW21
 U 1 1 61B5DCB2
 P 1350 3250
@@ -566,17 +299,6 @@ F 2 "lib:MX_ALPS_PG1350_noLed" H 1350 3250 50  0001 C CNN
 F 3 "" H 1350 3250 50  0000 C CNN
 	1    1350 3250
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D21
-U 1 1 61B5DCB8
-P 1650 3400
-F 0 "D21" H 1650 3500 50  0000 R CNN
-F 1 "D" V 1605 3320 50  0000 R CNN
-F 2 "lib:D3_SMD_v2_mirror" H 1650 3400 50  0001 C CNN
-F 3 "~" H 1650 3400 50  0001 C CNN
-	1    1650 3400
-	0    -1   -1   0   
 $EndComp
 $Comp
 L kbd:SW_PUSH SW22
@@ -590,17 +312,6 @@ F 3 "" H 3600 3250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D22
-U 1 1 61B5DCC4
-P 3900 3400
-F 0 "D22" H 3900 3500 50  0000 R CNN
-F 1 "D" V 3855 3320 50  0000 R CNN
-F 2 "lib:D3_SMD_v2_mirror" H 3900 3400 50  0001 C CNN
-F 3 "~" H 3900 3400 50  0001 C CNN
-	1    3900 3400
-	0    -1   -1   0   
-$EndComp
-$Comp
 L kbd:SW_PUSH SW23
 U 1 1 61B5DCCA
 P 4350 3250
@@ -612,17 +323,6 @@ F 3 "" H 4350 3250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D23
-U 1 1 61B5DCD0
-P 4650 3400
-F 0 "D23" H 4650 3500 50  0000 R CNN
-F 1 "D" V 4605 3320 50  0000 R CNN
-F 2 "lib:D3_SMD_v2_mirror" H 4650 3400 50  0001 C CNN
-F 3 "~" H 4650 3400 50  0001 C CNN
-	1    4650 3400
-	0    -1   -1   0   
-$EndComp
-$Comp
 L kbd:SW_PUSH SW24
 U 1 1 61B5DCD6
 P 5100 3250
@@ -632,17 +332,6 @@ F 2 "lib:MX_ALPS_PG1350_noLed" H 5100 3250 50  0001 C CNN
 F 3 "" H 5100 3250 50  0000 C CNN
 	1    5100 3250
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D24
-U 1 1 61B5DCDC
-P 5400 3400
-F 0 "D24" H 5400 3500 50  0000 R CNN
-F 1 "D" V 5355 3320 50  0000 R CNN
-F 2 "lib:D3_SMD_v2_mirror" H 5400 3400 50  0001 C CNN
-F 3 "~" H 5400 3400 50  0001 C CNN
-	1    5400 3400
-	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	1050 2600 1050 3250
@@ -672,78 +361,8 @@ F 3 "" H 5900 3250 50  0000 C CNN
 	1    5900 3250
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:D D25
-U 1 1 61B5DCF4
-P 6200 3400
-F 0 "D25" H 6200 3500 50  0000 R CNN
-F 1 "D" V 6155 3320 50  0000 R CNN
-F 2 "lib:D3_SMD_v2_mirror" H 6200 3400 50  0001 C CNN
-F 3 "~" H 6200 3400 50  0001 C CNN
-	1    6200 3400
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6200 3600 6200 3550
-Wire Wire Line
-	5400 3550 5400 3600
-Wire Wire Line
-	4650 3550 4650 3600
-Connection ~ 4650 3600
-Wire Wire Line
-	4650 3600 5400 3600
-Wire Wire Line
-	3900 3550 3900 3600
-Connection ~ 3900 3600
-Wire Wire Line
-	3900 3600 4650 3600
-Wire Wire Line
-	3150 3550 3150 3600
-Connection ~ 3150 3600
-Wire Wire Line
-	3150 3600 3900 3600
-Wire Wire Line
-	2400 3550 2400 3600
-Connection ~ 2400 3600
-Wire Wire Line
-	2400 3600 3150 3600
-Wire Wire Line
-	1650 3550 1650 3600
-Wire Wire Line
-	1650 3600 2400 3600
 Wire Wire Line
 	6150 2950 6150 2900
-Wire Wire Line
-	5400 2900 5400 2950
-Connection ~ 5400 2950
-Wire Wire Line
-	5400 2950 6150 2950
-Wire Wire Line
-	4650 2900 4650 2950
-Connection ~ 4650 2950
-Wire Wire Line
-	4650 2950 5400 2950
-Wire Wire Line
-	3900 2900 3900 2950
-Connection ~ 3900 2950
-Wire Wire Line
-	3900 2950 4650 2950
-Wire Wire Line
-	3150 2900 3150 2950
-Connection ~ 3150 2950
-Wire Wire Line
-	3150 2950 3900 2950
-Wire Wire Line
-	2400 2900 2400 2950
-Wire Wire Line
-	2400 2950 3150 2950
-Connection ~ 1650 3600
-Connection ~ 2400 2950
-Wire Wire Line
-	2250 2300 2400 2300
-Connection ~ 2400 2300
-Wire Wire Line
-	2250 2950 2400 2950
 $Comp
 L kbd:SW_PUSH SW26
 U 1 1 61B5DD2A
@@ -753,17 +372,6 @@ F 1 "SW_PUSH" H 1350 4064 50  0000 C CNN
 F 2 "lib:MX_ALPS_reduced" H 1350 3900 50  0001 C CNN
 F 3 "" H 1350 3900 50  0000 C CNN
 	1    1350 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L kbd:SW_PUSH SW27
-U 1 1 61B5DD30
-P 3600 3950
-F 0 "SW27" H 3600 4205 50  0000 C CNN
-F 1 "SW_PUSH" H 3600 4114 50  0000 C CNN
-F 2 "lib:MX_ALPS_reduced" H 3600 3950 50  0001 C CNN
-F 3 "" H 3600 3950 50  0000 C CNN
-	1    3600 3950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -924,26 +532,11 @@ Text HLabel 8050 5250 2    50   Input ~ 0
 QDEC_B
 Text HLabel 8050 6000 2    50   Input ~ 0
 QDEC_B
-Wire Wire Line
-	1500 3600 1650 3600
-Wire Wire Line
-	6200 3600 5400 3600
-Connection ~ 5400 3600
-Wire Wire Line
-	3900 3950 3900 3600
 Connection ~ 3300 3250
 Wire Wire Line
 	3300 3250 3300 3950
 Wire Wire Line
 	3150 3250 3200 3250
-Wire Wire Line
-	3200 3250 3200 3950
-Wire Wire Line
-	3200 3950 3150 3950
-Connection ~ 3150 3250
-Wire Wire Line
-	2550 3950 2550 3250
-Connection ~ 2550 3250
 $Comp
 L Connector_Generic:Conn_01x05 J5
 U 1 1 618135AF
@@ -1004,8 +597,325 @@ Connection ~ 1050 3250
 Wire Wire Line
 	1650 3250 1700 3250
 Wire Wire Line
-	1700 3250 1700 3900
+	1700 3250 1700 3400
 Wire Wire Line
 	1700 3900 1650 3900
-Connection ~ 1650 3250
+Wire Wire Line
+	3075 1450 3150 1450
+Wire Wire Line
+	3150 1450 3150 1300
+Wire Wire Line
+	2425 1450 2425 1300
+Wire Wire Line
+	2425 1300 2400 1300
+Wire Wire Line
+	2400 1650 2725 1650
+$Comp
+L lib:BAS40-05 D1
+U 1 1 61822CF0
+P 2725 1550
+F 0 "D1" H 2475 1550 50  0000 C CNN
+F 1 "BAS40-05" H 2925 1550 50  0000 C CNN
+F 2 "lib:SOT-23_mirror" H 2475 1850 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/85701/bas40v.pdf" H 2605 1650 50  0001 C CNN
+F 4 "C699088" H 2725 1550 50  0001 C CNN "LCSC"
+	1    2725 1550
+	1    0    0    -1  
+$EndComp
+Connection ~ 2725 1650
+Wire Wire Line
+	2725 1650 3150 1650
+$Comp
+L kbd:SW_PUSH SW27
+U 1 1 61B5DD30
+P 3600 3950
+F 0 "SW27" H 3600 4205 50  0000 C CNN
+F 1 "SW_PUSH" H 3600 4114 50  0000 C CNN
+F 2 "lib:MX_ALPS_reduced" H 3600 3950 50  0001 C CNN
+F 3 "" H 3600 3950 50  0000 C CNN
+	1    3600 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3950 4000 3950
+Wire Wire Line
+	4000 3950 4000 3400
+Wire Wire Line
+	4000 3250 3900 3250
+$Comp
+L lib:BAS40-05 D2
+U 1 1 6184A339
+P 4250 1550
+F 0 "D2" H 4275 1875 50  0000 C CNN
+F 1 "BAS40-05" H 4275 1784 50  0000 C CNN
+F 2 "lib:SOT-23_mirror" H 4000 1850 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/85701/bas40v.pdf" H 4130 1650 50  0001 C CNN
+F 4 "C699088" H 4250 1550 50  0001 C CNN "LCSC"
+	1    4250 1550
+	1    0    0    -1  
+$EndComp
+Connection ~ 4250 1650
+$Comp
+L lib:BAS40-05 D3
+U 1 1 6184CB8D
+P 5750 1550
+F 0 "D3" H 5775 1875 50  0000 C CNN
+F 1 "BAS40-05" H 5775 1784 50  0000 C CNN
+F 2 "lib:SOT-23_mirror" H 5500 1850 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/85701/bas40v.pdf" H 5630 1650 50  0001 C CNN
+F 4 "C699088" H 5750 1550 50  0001 C CNN "LCSC"
+	1    5750 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 1300 4650 1450
+Wire Wire Line
+	4650 1450 4600 1450
+Wire Wire Line
+	3900 1300 3900 1450
+Wire Wire Line
+	3900 1450 3950 1450
+Wire Wire Line
+	5400 1300 5400 1450
+Wire Wire Line
+	5400 1450 5450 1450
+Wire Wire Line
+	6150 1300 6150 1450
+Wire Wire Line
+	6150 1450 6100 1450
+Wire Wire Line
+	4250 1650 5750 1650
+Wire Wire Line
+	3150 1650 4250 1650
+$Comp
+L lib:BAS40-05 D6
+U 1 1 61866EAC
+P 5750 2200
+F 0 "D6" H 5775 2525 50  0000 C CNN
+F 1 "BAS40-05" H 5775 2434 50  0000 C CNN
+F 2 "lib:SOT-23_mirror" H 5500 2500 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/85701/bas40v.pdf" H 5630 2300 50  0001 C CNN
+F 4 "C699088" H 5750 2200 50  0001 C CNN "LCSC"
+	1    5750 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L lib:BAS40-05 D5
+U 1 1 618680BC
+P 4250 2200
+F 0 "D5" H 4275 2525 50  0000 C CNN
+F 1 "BAS40-05" H 4275 2434 50  0000 C CNN
+F 2 "lib:SOT-23_mirror" H 4000 2500 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/85701/bas40v.pdf" H 4130 2300 50  0001 C CNN
+F 4 "C699088" H 4250 2200 50  0001 C CNN "LCSC"
+	1    4250 2200
+	1    0    0    -1  
+$EndComp
+Connection ~ 4250 2300
+$Comp
+L lib:BAS40-05 D4
+U 1 1 61868E7A
+P 2750 2200
+F 0 "D4" H 2775 2525 50  0000 C CNN
+F 1 "BAS40-05" H 2775 2434 50  0000 C CNN
+F 2 "lib:SOT-23_mirror" H 2500 2500 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/85701/bas40v.pdf" H 2630 2300 50  0001 C CNN
+F 4 "C699088" H 2750 2200 50  0001 C CNN "LCSC"
+	1    2750 2200
+	1    0    0    -1  
+$EndComp
+Connection ~ 2750 2300
+Wire Wire Line
+	3100 2100 3150 2100
+Wire Wire Line
+	3150 2100 3150 1950
+Wire Wire Line
+	2400 1950 2400 2100
+Wire Wire Line
+	2400 2100 2450 2100
+Wire Wire Line
+	3900 1950 3900 2100
+Wire Wire Line
+	3900 2100 3950 2100
+Wire Wire Line
+	4650 1950 4650 2100
+Wire Wire Line
+	4650 2100 4600 2100
+Wire Wire Line
+	5400 1950 5400 2100
+Wire Wire Line
+	5400 2100 5450 2100
+Wire Wire Line
+	6150 1950 6150 2100
+Wire Wire Line
+	6150 2100 6100 2100
+Wire Wire Line
+	4250 2300 5750 2300
+Wire Wire Line
+	2750 2300 4250 2300
+Wire Wire Line
+	2250 2300 2750 2300
+$Comp
+L lib:BAS40-05 D8
+U 1 1 6188A440
+P 4250 2850
+F 0 "D8" H 4275 3175 50  0000 C CNN
+F 1 "BAS40-05" H 4275 3084 50  0000 C CNN
+F 2 "lib:SOT-23_mirror" H 4000 3150 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/85701/bas40v.pdf" H 4130 2950 50  0001 C CNN
+F 4 "C699088" H 4250 2850 50  0001 C CNN "LCSC"
+	1    4250 2850
+	1    0    0    -1  
+$EndComp
+Connection ~ 4250 2950
+$Comp
+L lib:BAS40-05 D7
+U 1 1 6188B548
+P 2750 2850
+F 0 "D7" H 2775 3175 50  0000 C CNN
+F 1 "BAS40-05" H 2775 3084 50  0000 C CNN
+F 2 "lib:SOT-23_mirror" H 2500 3150 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/85701/bas40v.pdf" H 2630 2950 50  0001 C CNN
+F 4 "C699088" H 2750 2850 50  0001 C CNN "LCSC"
+	1    2750 2850
+	1    0    0    -1  
+$EndComp
+Connection ~ 2750 2950
+Wire Wire Line
+	2250 2950 2750 2950
+Wire Wire Line
+	2750 2950 4250 2950
+Wire Wire Line
+	5750 2950 6150 2950
+Connection ~ 5750 2950
+$Comp
+L lib:BAS40-05 D9
+U 1 1 6188949F
+P 5750 2850
+F 0 "D9" H 5775 3175 50  0000 C CNN
+F 1 "BAS40-05" H 5775 3084 50  0000 C CNN
+F 2 "lib:SOT-23_mirror" H 5500 3150 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/85701/bas40v.pdf" H 5630 2950 50  0001 C CNN
+F 4 "C699088" H 5750 2850 50  0001 C CNN "LCSC"
+	1    5750 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 2950 5750 2950
+Wire Wire Line
+	6100 2750 6150 2750
+Wire Wire Line
+	6150 2750 6150 2600
+Wire Wire Line
+	5450 2750 5400 2750
+Wire Wire Line
+	5400 2750 5400 2600
+Wire Wire Line
+	4650 2600 4650 2750
+Wire Wire Line
+	4650 2750 4600 2750
+Wire Wire Line
+	3950 2750 3900 2750
+Wire Wire Line
+	3900 2750 3900 2600
+Wire Wire Line
+	3150 2600 3150 2750
+Wire Wire Line
+	3150 2750 3100 2750
+Wire Wire Line
+	2450 2750 2400 2750
+Wire Wire Line
+	2400 2750 2400 2600
+$Comp
+L lib:BAS40-05 D13
+U 1 1 6191E685
+P 5800 3500
+F 0 "D13" H 5825 3825 50  0000 C CNN
+F 1 "BAS40-05" H 5825 3734 50  0000 C CNN
+F 2 "lib:SOT-23_mirror" H 5550 3800 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/85701/bas40v.pdf" H 5680 3600 50  0001 C CNN
+F 4 "C699088" H 5800 3500 50  0001 C CNN "LCSC"
+	1    5800 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L lib:BAS40-05 D10
+U 1 1 6191FCB4
+P 2000 3500
+F 0 "D10" H 2025 3825 50  0000 C CNN
+F 1 "BAS40-05" H 2025 3734 50  0000 C CNN
+F 2 "lib:SOT-23_mirror" H 1750 3800 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/85701/bas40v.pdf" H 1880 3600 50  0001 C CNN
+F 4 "C699088" H 2000 3500 50  0001 C CNN "LCSC"
+	1    2000 3500
+	1    0    0    -1  
+$EndComp
+Connection ~ 1700 3400
+Wire Wire Line
+	1700 3400 1700 3900
+Connection ~ 2000 3600
+Wire Wire Line
+	2350 3400 2400 3400
+Wire Wire Line
+	2400 3400 2400 3250
+Wire Wire Line
+	1500 3600 2000 3600
+$Comp
+L lib:BAS40-05 D11
+U 1 1 619296F5
+P 3550 3500
+F 0 "D11" H 3575 3825 50  0000 C CNN
+F 1 "BAS40-05" H 3575 3734 50  0000 C CNN
+F 2 "lib:SOT-23_mirror" H 3300 3800 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/85701/bas40v.pdf" H 3430 3600 50  0001 C CNN
+F 4 "C699088" H 3550 3500 50  0001 C CNN "LCSC"
+	1    3550 3500
+	1    0    0    -1  
+$EndComp
+Connection ~ 3550 3600
+Wire Wire Line
+	3900 3400 4000 3400
+Connection ~ 4000 3400
+Wire Wire Line
+	4000 3400 4000 3250
+Wire Wire Line
+	3250 3400 3200 3400
+Wire Wire Line
+	3200 3400 3200 3250
+Wire Wire Line
+	2000 3600 3550 3600
+Wire Wire Line
+	3550 3600 4050 3600
+$Comp
+L lib:BAS40-05 D12
+U 1 1 61935030
+P 4350 3500
+F 0 "D12" H 4375 3825 50  0000 C CNN
+F 1 "BAS40-05" H 4375 3734 50  0000 C CNN
+F 2 "lib:SOT-23_mirror" H 4100 3800 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/85701/bas40v.pdf" H 4230 3600 50  0001 C CNN
+F 4 "C699088" H 4350 3500 50  0001 C CNN "LCSC"
+	1    4350 3500
+	1    0    0    -1  
+$EndComp
+Connection ~ 4350 3600
+Wire Wire Line
+	4700 3400 4700 3250
+Wire Wire Line
+	4700 3250 4650 3250
+Wire Wire Line
+	4350 3600 5800 3600
+Wire Wire Line
+	5500 3400 5400 3400
+Wire Wire Line
+	5400 3400 5400 3250
+Wire Wire Line
+	6150 3400 6200 3400
+Wire Wire Line
+	6200 3400 6200 3250
+Wire Wire Line
+	4050 3400 4050 3600
+Connection ~ 4050 3600
+Wire Wire Line
+	4050 3600 4350 3600
 $EndSCHEMATC
